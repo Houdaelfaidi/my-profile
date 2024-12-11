@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    background-color: #f0f0f0; /* Light background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Helvetica', sans-serif;
+    color: #2ECC71; /* Green color for headers */
+    letter-spacing: 0.5px;
+}
+
+/* Main Header Styles */
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Profile Image Styles */
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+}
+
+/* Round Profile Image */
+.img-circle {
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;  /* Ensures the image covers the circle without distortion */
+}
+
+/* Social Media Links */
+.social {
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.social-icon {
+    font-size: 18px;
+    text-decoration: none;
+    color: #3498db; /* Blue for links */
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #FF6347; /* Change color on hover */
+}
+
+/* Contact Button Styles */
+.btn-link {
+    display: inline-block;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
